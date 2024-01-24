@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  margin: 1rem 1rem;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.813rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c2a39;
+}
+
+.shop_menu {
+  display: flex;
+  width: 25rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop_menu li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.75rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5c6a79;
+}
+
+.shop_menu li:hover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 900;
+  line-height: 0.75rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c2a39;
+}
